@@ -1,0 +1,11 @@
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+c:\users\criss\documents\visual studio 2015\Projects\CargaMasiva_IF_C4C\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
