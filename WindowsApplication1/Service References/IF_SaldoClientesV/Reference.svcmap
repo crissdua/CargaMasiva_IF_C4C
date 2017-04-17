@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1d5f4616-7ea9-40a6-9824-8d0b9e4d2bfd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5272bcd4-97e8-4711-b48a-9397c4626775" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,10 +19,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="C:\Users\criss\Desktop\IF_Local_copia_WSDL\0010000101_Z.SaldoClientesV2.wsdl" Protocol="file" SourceId="1" />
+    <MetadataSource Address="C:\Users\criss\Desktop\001sap0003_Z.SaldoClientesV127.wsdl" Protocol="file" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ipostep_vP.0010000101.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPT.wsdl" MetadataType="Wsdl" ID="eb2ff04c-9a48-4551-9782-db5bfee31e5f" SourceId="1" SourceUrl="file:///C:/Users/criss/Desktop/IF_Local_copia_WSDL/0010000101_Z.SaldoClientesV2.wsdl" />
+    <MetadataFile FileName="ipostep_vP.001sap0003.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPT.wsdl" MetadataType="Wsdl" ID="a97d2399-bf28-41d2-923a-ea310bba2933" SourceId="1" SourceUrl="file:///C:/Users/criss/Desktop/001sap0003_Z.SaldoClientesV127.wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f1d2b86d-4921-42eb-af0c-d60c17929516" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="591ebb01-1a91-4b55-b7d6-21f9bae8fad3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,7 +22,7 @@
     <MetadataSource Address="C:\Users\criss\Desktop\C4C WSDL\Wsdl_Saldo_ClienteV_c4c.wsdl" Protocol="file" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Wsdl_Saldo_ClienteV_c4c.wsdl" MetadataType="Wsdl" ID="3b79628b-e673-4da0-9156-bca9af1bf2a8" SourceId="1" SourceUrl="file:///C:/Users/criss/Desktop/C4C WSDL/Wsdl_Saldo_ClienteV_c4c.wsdl" />
+    <MetadataFile FileName="Wsdl_Saldo_ClienteV_c4c.wsdl" MetadataType="Wsdl" ID="a4acd376-aa00-4888-9c99-bfd5f87bf362" SourceId="1" SourceUrl="file:///C:/Users/criss/Desktop/C4C WSDL/Wsdl_Saldo_ClienteV_c4c.wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

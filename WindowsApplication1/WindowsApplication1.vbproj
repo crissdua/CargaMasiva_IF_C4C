@@ -133,20 +133,22 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\C4C_SaldoClientesB\WindowsApplication1.C4C_SaldoClientesB.CreateResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\C4C_SaldoClientesB\WindowsApplication1.C4C_SaldoClientesB.ReadResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\C4C_SaldoClientesB\WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmationMessage_sync.datasource">
+    <None Include="Service References\C4C_SaldoClientesB\WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmationMessage_sync.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\C4C_SaldoClientesB\WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponseMessage_sync.datasource">
+    <None Include="Service References\C4C_SaldoClientesB\WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponseMessage_sync.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\C4C_SaldoClientesB\WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateConfirmationMessage_sync.datasource">
+    <None Include="Service References\C4C_SaldoClientesB\WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateConfirmationMessage_sync.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\C4C_SaldoClientesB\WindowsApplication1.C4C_SaldoClientesB.UpdateResponse.datasource">
@@ -159,20 +161,20 @@
     <None Include="Service References\C4C_SaldoClientesV\WindowsApplication1.C4C_SaldoClientesV.ReadResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\C4C_SaldoClientesV\WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateConfirmationMessage_sync.datasource">
+    <None Include="Service References\C4C_SaldoClientesV\WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateConfirmationMessage_sync.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\C4C_SaldoClientesV\WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDResponseMessage_sync.datasource">
+    <None Include="Service References\C4C_SaldoClientesV\WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDResponseMessage_sync.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\C4C_SaldoClientesV\WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateConfirmationMessage_sync.datasource">
+    <None Include="Service References\C4C_SaldoClientesV\WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateConfirmationMessage_sync.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\C4C_SaldoClientesV\WindowsApplication1.C4C_SaldoClientesV.UpdateResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\C4C_SaldoClientesV\Wsdl_Saldo_ClienteV_c4c.wsdl" />
-    <None Include="Service References\IF_SaldoClientesV\ipostep_vP.0010000101.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPT.wsdl" />
+    <None Include="Service References\IF_SaldoClientesV\ipostep_vP.001sap0003.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPT.wsdl" />
     <None Include="Service References\IF_SaldoClientesV\WindowsApplication1.IF_SaldoClientesV.SaldoClientesVResponseType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -189,13 +191,13 @@
     <WCFMetadataStorage Include="Service References\IF_SaldoClientesV\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\C4C_SaldoClientesV\configuration91.svcinfo" />
+    <None Include="Service References\C4C_SaldoClientesB\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\C4C_SaldoClientesV\configuration.svcinfo" />
+    <None Include="Service References\C4C_SaldoClientesB\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\C4C_SaldoClientesV\Reference.svcmap">
+    <None Include="Service References\C4C_SaldoClientesB\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
@@ -213,13 +215,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\C4C_SaldoClientesB\configuration91.svcinfo" />
+    <None Include="Service References\C4C_SaldoClientesV\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\C4C_SaldoClientesB\configuration.svcinfo" />
+    <None Include="Service References\C4C_SaldoClientesV\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\C4C_SaldoClientesB\Reference.svcmap">
+    <None Include="Service References\C4C_SaldoClientesV\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>

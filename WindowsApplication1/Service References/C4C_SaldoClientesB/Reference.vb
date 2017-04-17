@@ -793,7 +793,7 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBCreateConfirmation
+    Partial Public Class Saldo_ClienteBSaldoClienteBCreateConfirmation
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
@@ -841,17 +841,17 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBCreateConfirmationMessage_sync
+    Partial Public Class Saldo_ClienteBSaldoClienteBCreateConfirmationMessage_sync
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
-        Private saldo_ClienteBField As Saldo_ClienteBSaldo_ClienteBCreateConfirmation
+        Private saldo_ClienteBField As Saldo_ClienteBSaldoClienteBCreateConfirmation
         
         Private logField As Log
         
         '''<comentarios/>
         <System.Xml.Serialization.XmlElementAttribute(Form:=System.Xml.Schema.XmlSchemaForm.Unqualified, Order:=0)>  _
-        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldo_ClienteBCreateConfirmation
+        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldoClienteBCreateConfirmation
             Get
                 Return Me.saldo_ClienteBField
             End Get
@@ -937,7 +937,7 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBCreateRequest
+    Partial Public Class Saldo_ClienteBSaldoClienteBCreateRequest
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
@@ -1227,13 +1227,13 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBCreateRequestMessage_sync
+    Partial Public Class Saldo_ClienteBSaldoClienteBCreateRequestMessage_sync
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
         Private basicMessageHeaderField As BusinessDocumentBasicMessageHeader
         
-        Private saldo_ClienteBField As Saldo_ClienteBSaldo_ClienteBCreateRequest
+        Private saldo_ClienteBField As Saldo_ClienteBSaldoClienteBCreateRequest
         
         '''<comentarios/>
         <System.Xml.Serialization.XmlElementAttribute(Form:=System.Xml.Schema.XmlSchemaForm.Unqualified, Order:=0)>  _
@@ -1249,7 +1249,7 @@ Namespace C4C_SaldoClientesB
         
         '''<comentarios/>
         <System.Xml.Serialization.XmlElementAttribute(Form:=System.Xml.Schema.XmlSchemaForm.Unqualified, Order:=1)>  _
-        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldo_ClienteBCreateRequest
+        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldoClienteBCreateRequest
             Get
                 Return Me.saldo_ClienteBField
             End Get
@@ -1270,43 +1270,40 @@ Namespace C4C_SaldoClientesB
     End Class
     
     <System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
-     System.ServiceModel.ServiceContractAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_", ConfigurationName:="C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB")>  _
-    Public Interface Y3YVY3FOY_Saldo_ClienteB
+     System.ServiceModel.ServiceContractAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_", ConfigurationName:="C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB")>  _
+    Public Interface Y3YVY3FOY_SaldoClienteB
         
         'CODEGEN: Se está generando un contrato de mensaje, ya que la operación Create no es RPC ni está encapsulada en un documento.
-        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_Saldo_ClienteB/CreateReque"& _ 
-            "st", ReplyAction:="*"),  _
-         System.ServiceModel.FaultContractAttribute(GetType(C4C_SaldoClientesB.StandardFaultMessage), Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_Saldo_ClienteB/CreateReque"& _ 
-            "st", Name:="StandardFaultMessage", [Namespace]:="http://sap.com/xi/AP/Common/Global"),  _
+        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_SaldoClienteB/CreateReques"& _ 
+            "t", ReplyAction:="*"),  _
+         System.ServiceModel.FaultContractAttribute(GetType(C4C_SaldoClientesB.StandardFaultMessage), Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_SaldoClienteB/CreateReques"& _ 
+            "t", Name:="StandardFaultMessage", [Namespace]:="http://sap.com/xi/AP/Common/Global"),  _
          System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults:=true)>  _
         Function Create(ByVal request As C4C_SaldoClientesB.CreateRequest) As C4C_SaldoClientesB.CreateResponse
         
-        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_Saldo_ClienteB/CreateReque"& _ 
-            "st", ReplyAction:="*")>  _
+        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_SaldoClienteB/CreateReques"& _ 
+            "t", ReplyAction:="*")>  _
         Function CreateAsync(ByVal request As C4C_SaldoClientesB.CreateRequest) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.CreateResponse)
         
         'CODEGEN: Se está generando un contrato de mensaje, ya que la operación Update no es RPC ni está encapsulada en un documento.
-        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_Saldo_ClienteB/UpdateReque"& _ 
-            "st", ReplyAction:="*"),  _
-         System.ServiceModel.FaultContractAttribute(GetType(C4C_SaldoClientesB.StandardFaultMessage), Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_Saldo_ClienteB/UpdateReque"& _ 
-            "st", Name:="StandardFaultMessage", [Namespace]:="http://sap.com/xi/AP/Common/Global"),  _
+        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_SaldoClienteB/UpdateReques"& _ 
+            "t", ReplyAction:="*"),  _
+         System.ServiceModel.FaultContractAttribute(GetType(C4C_SaldoClientesB.StandardFaultMessage), Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_SaldoClienteB/UpdateReques"& _ 
+            "t", Name:="StandardFaultMessage", [Namespace]:="http://sap.com/xi/AP/Common/Global"),  _
          System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults:=true)>  _
         Function Update(ByVal request As C4C_SaldoClientesB.UpdateRequest) As C4C_SaldoClientesB.UpdateResponse
         
-        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_Saldo_ClienteB/UpdateReque"& _ 
-            "st", ReplyAction:="*")>  _
+        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_SaldoClienteB/UpdateReques"& _ 
+            "t", ReplyAction:="*")>  _
         Function UpdateAsync(ByVal request As C4C_SaldoClientesB.UpdateRequest) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.UpdateResponse)
         
         'CODEGEN: Se está generando un contrato de mensaje, ya que la operación Read no es RPC ni está encapsulada en un documento.
-        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_Saldo_ClienteB/ReadRequest"& _ 
-            "", ReplyAction:="*"),  _
-         System.ServiceModel.FaultContractAttribute(GetType(C4C_SaldoClientesB.StandardFaultMessage), Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_Saldo_ClienteB/ReadRequest"& _ 
-            "", Name:="StandardFaultMessage", [Namespace]:="http://sap.com/xi/AP/Common/Global"),  _
+        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_SaldoClienteB/ReadRequest", ReplyAction:="*"),  _
+         System.ServiceModel.FaultContractAttribute(GetType(C4C_SaldoClientesB.StandardFaultMessage), Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_SaldoClienteB/ReadRequest", Name:="StandardFaultMessage", [Namespace]:="http://sap.com/xi/AP/Common/Global"),  _
          System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults:=true)>  _
         Function Read(ByVal request As C4C_SaldoClientesB.ReadRequest) As C4C_SaldoClientesB.ReadResponse
         
-        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_Saldo_ClienteB/ReadRequest"& _ 
-            "", ReplyAction:="*")>  _
+        <System.ServiceModel.OperationContractAttribute(Action:="http://0014438665-one-off.sap.com/Y3YVY3FOY_/Y3YVY3FOY_SaldoClienteB/ReadRequest", ReplyAction:="*")>  _
         Function ReadAsync(ByVal request As C4C_SaldoClientesB.ReadRequest) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.ReadResponse)
     End Interface
     
@@ -1317,15 +1314,15 @@ Namespace C4C_SaldoClientesB
     Partial Public Class CreateRequest
         
         <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://sap.com/xi/SAPGlobal20/Global", Order:=0)>  _
-        Public Saldo_ClienteBSaldo_ClienteBCreateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequestMessage_sync
+        Public Saldo_ClienteBSaldoClienteBCreateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequestMessage_sync
         
         Public Sub New()
             MyBase.New
         End Sub
         
-        Public Sub New(ByVal Saldo_ClienteBSaldo_ClienteBCreateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequestMessage_sync)
+        Public Sub New(ByVal Saldo_ClienteBSaldoClienteBCreateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequestMessage_sync)
             MyBase.New
-            Me.Saldo_ClienteBSaldo_ClienteBCreateRequest_sync = Saldo_ClienteBSaldo_ClienteBCreateRequest_sync
+            Me.Saldo_ClienteBSaldoClienteBCreateRequest_sync = Saldo_ClienteBSaldoClienteBCreateRequest_sync
         End Sub
     End Class
     
@@ -1336,15 +1333,15 @@ Namespace C4C_SaldoClientesB
     Partial Public Class CreateResponse
         
         <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://sap.com/xi/SAPGlobal20/Global", Order:=0)>  _
-        Public Saldo_ClienteBSaldo_ClienteBCreateConfirmation_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmationMessage_sync
+        Public Saldo_ClienteBSaldoClienteBCreateConfirmation_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmationMessage_sync
         
         Public Sub New()
             MyBase.New
         End Sub
         
-        Public Sub New(ByVal Saldo_ClienteBSaldo_ClienteBCreateConfirmation_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmationMessage_sync)
+        Public Sub New(ByVal Saldo_ClienteBSaldoClienteBCreateConfirmation_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmationMessage_sync)
             MyBase.New
-            Me.Saldo_ClienteBSaldo_ClienteBCreateConfirmation_sync = Saldo_ClienteBSaldo_ClienteBCreateConfirmation_sync
+            Me.Saldo_ClienteBSaldoClienteBCreateConfirmation_sync = Saldo_ClienteBSaldoClienteBCreateConfirmation_sync
         End Sub
     End Class
     
@@ -1354,13 +1351,13 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBUpdateRequestMessage_sync
+    Partial Public Class Saldo_ClienteBSaldoClienteBUpdateRequestMessage_sync
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
         Private basicMessageHeaderField As BusinessDocumentBasicMessageHeader
         
-        Private saldo_ClienteBField As Saldo_ClienteBSaldo_ClienteBUpdateRequest
+        Private saldo_ClienteBField As Saldo_ClienteBSaldoClienteBUpdateRequest
         
         '''<comentarios/>
         <System.Xml.Serialization.XmlElementAttribute(Form:=System.Xml.Schema.XmlSchemaForm.Unqualified, Order:=0)>  _
@@ -1376,7 +1373,7 @@ Namespace C4C_SaldoClientesB
         
         '''<comentarios/>
         <System.Xml.Serialization.XmlElementAttribute(Form:=System.Xml.Schema.XmlSchemaForm.Unqualified, Order:=1)>  _
-        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldo_ClienteBUpdateRequest
+        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldoClienteBUpdateRequest
             Get
                 Return Me.saldo_ClienteBField
             End Get
@@ -1402,7 +1399,7 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBUpdateRequest
+    Partial Public Class Saldo_ClienteBSaldoClienteBUpdateRequest
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
@@ -1478,7 +1475,7 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBUpdateConfirmationMessage_sync
+    Partial Public Class Saldo_ClienteBSaldoClienteBUpdateConfirmationMessage_sync
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
@@ -1513,15 +1510,15 @@ Namespace C4C_SaldoClientesB
     Partial Public Class UpdateRequest
         
         <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://sap.com/xi/SAPGlobal20/Global", Order:=0)>  _
-        Public Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequestMessage_sync
+        Public Saldo_ClienteBSaldoClienteBUpdateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequestMessage_sync
         
         Public Sub New()
             MyBase.New
         End Sub
         
-        Public Sub New(ByVal Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequestMessage_sync)
+        Public Sub New(ByVal Saldo_ClienteBSaldoClienteBUpdateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequestMessage_sync)
             MyBase.New
-            Me.Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync = Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync
+            Me.Saldo_ClienteBSaldoClienteBUpdateRequest_sync = Saldo_ClienteBSaldoClienteBUpdateRequest_sync
         End Sub
     End Class
     
@@ -1532,15 +1529,15 @@ Namespace C4C_SaldoClientesB
     Partial Public Class UpdateResponse
         
         <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://sap.com/xi/SAPGlobal20/Global", Order:=0)>  _
-        Public Saldo_ClienteBSaldo_ClienteBUpdateConfirmation_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateConfirmationMessage_sync
+        Public Saldo_ClienteBSaldoClienteBUpdateConfirmation_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateConfirmationMessage_sync
         
         Public Sub New()
             MyBase.New
         End Sub
         
-        Public Sub New(ByVal Saldo_ClienteBSaldo_ClienteBUpdateConfirmation_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateConfirmationMessage_sync)
+        Public Sub New(ByVal Saldo_ClienteBSaldoClienteBUpdateConfirmation_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateConfirmationMessage_sync)
             MyBase.New
-            Me.Saldo_ClienteBSaldo_ClienteBUpdateConfirmation_sync = Saldo_ClienteBSaldo_ClienteBUpdateConfirmation_sync
+            Me.Saldo_ClienteBSaldoClienteBUpdateConfirmation_sync = Saldo_ClienteBSaldoClienteBUpdateConfirmation_sync
         End Sub
     End Class
     
@@ -1550,15 +1547,15 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBReadByIDQueryMessage_sync
+    Partial Public Class Saldo_ClienteBSaldoClienteBReadByIDQueryMessage_sync
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
-        Private saldo_ClienteBField As Saldo_ClienteBSaldo_ClienteBReadByIDQuery
+        Private saldo_ClienteBField As Saldo_ClienteBSaldoClienteBReadByIDQuery
         
         '''<comentarios/>
         <System.Xml.Serialization.XmlElementAttribute(Form:=System.Xml.Schema.XmlSchemaForm.Unqualified, Order:=0)>  _
-        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldo_ClienteBReadByIDQuery
+        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldoClienteBReadByIDQuery
             Get
                 Return Me.saldo_ClienteBField
             End Get
@@ -1584,7 +1581,7 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBReadByIDQuery
+    Partial Public Class Saldo_ClienteBSaldoClienteBReadByIDQuery
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
@@ -1632,17 +1629,17 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBReadByIDResponseMessage_sync
+    Partial Public Class Saldo_ClienteBSaldoClienteBReadByIDResponseMessage_sync
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
-        Private saldo_ClienteBField As Saldo_ClienteBSaldo_ClienteBReadByIDResponse
+        Private saldo_ClienteBField As Saldo_ClienteBSaldoClienteBReadByIDResponse
         
         Private logField As Log
         
         '''<comentarios/>
         <System.Xml.Serialization.XmlElementAttribute(Form:=System.Xml.Schema.XmlSchemaForm.Unqualified, Order:=0)>  _
-        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldo_ClienteBReadByIDResponse
+        Public Property Saldo_ClienteB() As Saldo_ClienteBSaldoClienteBReadByIDResponse
             Get
                 Return Me.saldo_ClienteBField
             End Get
@@ -1680,7 +1677,7 @@ Namespace C4C_SaldoClientesB
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
      System.Xml.Serialization.XmlTypeAttribute([Namespace]:="http://0014438665-one-off.sap.com/Y3YVY3FOY_")>  _
-    Partial Public Class Saldo_ClienteBSaldo_ClienteBReadByIDResponse
+    Partial Public Class Saldo_ClienteBSaldoClienteBReadByIDResponse
         Inherits Object
         Implements System.ComponentModel.INotifyPropertyChanged
         
@@ -1757,15 +1754,15 @@ Namespace C4C_SaldoClientesB
     Partial Public Class ReadRequest
         
         <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://sap.com/xi/SAPGlobal20/Global", Order:=0)>  _
-        Public Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDQueryMessage_sync
+        Public Saldo_ClienteBSaldoClienteBReadByIDQuery_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDQueryMessage_sync
         
         Public Sub New()
             MyBase.New
         End Sub
         
-        Public Sub New(ByVal Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDQueryMessage_sync)
+        Public Sub New(ByVal Saldo_ClienteBSaldoClienteBReadByIDQuery_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDQueryMessage_sync)
             MyBase.New
-            Me.Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync = Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync
+            Me.Saldo_ClienteBSaldoClienteBReadByIDQuery_sync = Saldo_ClienteBSaldoClienteBReadByIDQuery_sync
         End Sub
     End Class
     
@@ -1776,28 +1773,28 @@ Namespace C4C_SaldoClientesB
     Partial Public Class ReadResponse
         
         <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://sap.com/xi/SAPGlobal20/Global", Order:=0)>  _
-        Public Saldo_ClienteBSaldo_ClienteBReadByIDResponse_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponseMessage_sync
+        Public Saldo_ClienteBSaldoClienteBReadByIDResponse_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponseMessage_sync
         
         Public Sub New()
             MyBase.New
         End Sub
         
-        Public Sub New(ByVal Saldo_ClienteBSaldo_ClienteBReadByIDResponse_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponseMessage_sync)
+        Public Sub New(ByVal Saldo_ClienteBSaldoClienteBReadByIDResponse_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponseMessage_sync)
             MyBase.New
-            Me.Saldo_ClienteBSaldo_ClienteBReadByIDResponse_sync = Saldo_ClienteBSaldo_ClienteBReadByIDResponse_sync
+            Me.Saldo_ClienteBSaldoClienteBReadByIDResponse_sync = Saldo_ClienteBSaldoClienteBReadByIDResponse_sync
         End Sub
     End Class
     
     <System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")>  _
-    Public Interface Y3YVY3FOY_Saldo_ClienteBChannel
-        Inherits C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB, System.ServiceModel.IClientChannel
+    Public Interface Y3YVY3FOY_SaldoClienteBChannel
+        Inherits C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB, System.ServiceModel.IClientChannel
     End Interface
     
     <System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")>  _
-    Partial Public Class Y3YVY3FOY_Saldo_ClienteBClient
-        Inherits System.ServiceModel.ClientBase(Of C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB)
-        Implements C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB
+    Partial Public Class Y3YVY3FOY_SaldoClienteBClient
+        Inherits System.ServiceModel.ClientBase(Of C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB)
+        Implements C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB
         
         Public Sub New()
             MyBase.New
@@ -1820,72 +1817,72 @@ Namespace C4C_SaldoClientesB
         End Sub
         
         <System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Function C4C_SaldoClientesB_Y3YVY3FOY_Saldo_ClienteB_Create(ByVal request As C4C_SaldoClientesB.CreateRequest) As C4C_SaldoClientesB.CreateResponse Implements C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB.Create
+        Function C4C_SaldoClientesB_Y3YVY3FOY_SaldoClienteB_Create(ByVal request As C4C_SaldoClientesB.CreateRequest) As C4C_SaldoClientesB.CreateResponse Implements C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB.Create
             Return MyBase.Channel.Create(request)
         End Function
         
-        Public Function Create(ByVal Saldo_ClienteBSaldo_ClienteBCreateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequestMessage_sync) As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmationMessage_sync
+        Public Function Create(ByVal Saldo_ClienteBSaldoClienteBCreateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequestMessage_sync) As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmationMessage_sync
             Dim inValue As C4C_SaldoClientesB.CreateRequest = New C4C_SaldoClientesB.CreateRequest()
-            inValue.Saldo_ClienteBSaldo_ClienteBCreateRequest_sync = Saldo_ClienteBSaldo_ClienteBCreateRequest_sync
-            Dim retVal As C4C_SaldoClientesB.CreateResponse = CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB).Create(inValue)
-            Return retVal.Saldo_ClienteBSaldo_ClienteBCreateConfirmation_sync
+            inValue.Saldo_ClienteBSaldoClienteBCreateRequest_sync = Saldo_ClienteBSaldoClienteBCreateRequest_sync
+            Dim retVal As C4C_SaldoClientesB.CreateResponse = CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB).Create(inValue)
+            Return retVal.Saldo_ClienteBSaldoClienteBCreateConfirmation_sync
         End Function
         
         <System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Function C4C_SaldoClientesB_Y3YVY3FOY_Saldo_ClienteB_CreateAsync(ByVal request As C4C_SaldoClientesB.CreateRequest) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.CreateResponse) Implements C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB.CreateAsync
+        Function C4C_SaldoClientesB_Y3YVY3FOY_SaldoClienteB_CreateAsync(ByVal request As C4C_SaldoClientesB.CreateRequest) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.CreateResponse) Implements C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB.CreateAsync
             Return MyBase.Channel.CreateAsync(request)
         End Function
         
-        Public Function CreateAsync(ByVal Saldo_ClienteBSaldo_ClienteBCreateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequestMessage_sync) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.CreateResponse)
+        Public Function CreateAsync(ByVal Saldo_ClienteBSaldoClienteBCreateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequestMessage_sync) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.CreateResponse)
             Dim inValue As C4C_SaldoClientesB.CreateRequest = New C4C_SaldoClientesB.CreateRequest()
-            inValue.Saldo_ClienteBSaldo_ClienteBCreateRequest_sync = Saldo_ClienteBSaldo_ClienteBCreateRequest_sync
-            Return CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB).CreateAsync(inValue)
+            inValue.Saldo_ClienteBSaldoClienteBCreateRequest_sync = Saldo_ClienteBSaldoClienteBCreateRequest_sync
+            Return CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB).CreateAsync(inValue)
         End Function
         
         <System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Function C4C_SaldoClientesB_Y3YVY3FOY_Saldo_ClienteB_Update(ByVal request As C4C_SaldoClientesB.UpdateRequest) As C4C_SaldoClientesB.UpdateResponse Implements C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB.Update
+        Function C4C_SaldoClientesB_Y3YVY3FOY_SaldoClienteB_Update(ByVal request As C4C_SaldoClientesB.UpdateRequest) As C4C_SaldoClientesB.UpdateResponse Implements C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB.Update
             Return MyBase.Channel.Update(request)
         End Function
         
-        Public Function Update(ByVal Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequestMessage_sync) As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateConfirmationMessage_sync
+        Public Function Update(ByVal Saldo_ClienteBSaldoClienteBUpdateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequestMessage_sync) As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateConfirmationMessage_sync
             Dim inValue As C4C_SaldoClientesB.UpdateRequest = New C4C_SaldoClientesB.UpdateRequest()
-            inValue.Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync = Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync
-            Dim retVal As C4C_SaldoClientesB.UpdateResponse = CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB).Update(inValue)
-            Return retVal.Saldo_ClienteBSaldo_ClienteBUpdateConfirmation_sync
+            inValue.Saldo_ClienteBSaldoClienteBUpdateRequest_sync = Saldo_ClienteBSaldoClienteBUpdateRequest_sync
+            Dim retVal As C4C_SaldoClientesB.UpdateResponse = CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB).Update(inValue)
+            Return retVal.Saldo_ClienteBSaldoClienteBUpdateConfirmation_sync
         End Function
         
         <System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Function C4C_SaldoClientesB_Y3YVY3FOY_Saldo_ClienteB_UpdateAsync(ByVal request As C4C_SaldoClientesB.UpdateRequest) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.UpdateResponse) Implements C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB.UpdateAsync
+        Function C4C_SaldoClientesB_Y3YVY3FOY_SaldoClienteB_UpdateAsync(ByVal request As C4C_SaldoClientesB.UpdateRequest) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.UpdateResponse) Implements C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB.UpdateAsync
             Return MyBase.Channel.UpdateAsync(request)
         End Function
         
-        Public Function UpdateAsync(ByVal Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequestMessage_sync) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.UpdateResponse)
+        Public Function UpdateAsync(ByVal Saldo_ClienteBSaldoClienteBUpdateRequest_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequestMessage_sync) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.UpdateResponse)
             Dim inValue As C4C_SaldoClientesB.UpdateRequest = New C4C_SaldoClientesB.UpdateRequest()
-            inValue.Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync = Saldo_ClienteBSaldo_ClienteBUpdateRequest_sync
-            Return CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB).UpdateAsync(inValue)
+            inValue.Saldo_ClienteBSaldoClienteBUpdateRequest_sync = Saldo_ClienteBSaldoClienteBUpdateRequest_sync
+            Return CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB).UpdateAsync(inValue)
         End Function
         
         <System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Function C4C_SaldoClientesB_Y3YVY3FOY_Saldo_ClienteB_Read(ByVal request As C4C_SaldoClientesB.ReadRequest) As C4C_SaldoClientesB.ReadResponse Implements C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB.Read
+        Function C4C_SaldoClientesB_Y3YVY3FOY_SaldoClienteB_Read(ByVal request As C4C_SaldoClientesB.ReadRequest) As C4C_SaldoClientesB.ReadResponse Implements C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB.Read
             Return MyBase.Channel.Read(request)
         End Function
         
-        Public Function Read(ByVal Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDQueryMessage_sync) As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponseMessage_sync
+        Public Function Read(ByVal Saldo_ClienteBSaldoClienteBReadByIDQuery_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDQueryMessage_sync) As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponseMessage_sync
             Dim inValue As C4C_SaldoClientesB.ReadRequest = New C4C_SaldoClientesB.ReadRequest()
-            inValue.Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync = Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync
-            Dim retVal As C4C_SaldoClientesB.ReadResponse = CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB).Read(inValue)
-            Return retVal.Saldo_ClienteBSaldo_ClienteBReadByIDResponse_sync
+            inValue.Saldo_ClienteBSaldoClienteBReadByIDQuery_sync = Saldo_ClienteBSaldoClienteBReadByIDQuery_sync
+            Dim retVal As C4C_SaldoClientesB.ReadResponse = CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB).Read(inValue)
+            Return retVal.Saldo_ClienteBSaldoClienteBReadByIDResponse_sync
         End Function
         
         <System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Function C4C_SaldoClientesB_Y3YVY3FOY_Saldo_ClienteB_ReadAsync(ByVal request As C4C_SaldoClientesB.ReadRequest) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.ReadResponse) Implements C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB.ReadAsync
+        Function C4C_SaldoClientesB_Y3YVY3FOY_SaldoClienteB_ReadAsync(ByVal request As C4C_SaldoClientesB.ReadRequest) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.ReadResponse) Implements C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB.ReadAsync
             Return MyBase.Channel.ReadAsync(request)
         End Function
         
-        Public Function ReadAsync(ByVal Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDQueryMessage_sync) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.ReadResponse)
+        Public Function ReadAsync(ByVal Saldo_ClienteBSaldoClienteBReadByIDQuery_sync As C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDQueryMessage_sync) As System.Threading.Tasks.Task(Of C4C_SaldoClientesB.ReadResponse)
             Dim inValue As C4C_SaldoClientesB.ReadRequest = New C4C_SaldoClientesB.ReadRequest()
-            inValue.Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync = Saldo_ClienteBSaldo_ClienteBReadByIDQuery_sync
-            Return CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_Saldo_ClienteB).ReadAsync(inValue)
+            inValue.Saldo_ClienteBSaldoClienteBReadByIDQuery_sync = Saldo_ClienteBSaldoClienteBReadByIDQuery_sync
+            Return CType(Me,C4C_SaldoClientesB.Y3YVY3FOY_SaldoClienteB).ReadAsync(inValue)
         End Function
     End Class
 End Namespace

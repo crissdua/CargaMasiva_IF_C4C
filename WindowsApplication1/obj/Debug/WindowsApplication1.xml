@@ -226,22 +226,22 @@ WindowsApplication1
 <member name="P:WindowsApplication1.C4C_SaldoClientesB.LogItemNotePlaceholderSubstitutionList.FourthPlaceholderSubstitutionText">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmation">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmation">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmation.SAP_UUID">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmation.SAP_UUID">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmation.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmation.Entry">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmationMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmationMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmationMessage_sync.Saldo_ClienteB">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmationMessage_sync.Saldo_ClienteB">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateConfirmationMessage_sync.Log">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateConfirmationMessage_sync.Log">
 <comentarios/>
 </member>
 <member name="T:WindowsApplication1.C4C_SaldoClientesB.Text">
@@ -253,16 +253,16 @@ WindowsApplication1
 <member name="P:WindowsApplication1.C4C_SaldoClientesB.Text.Value">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequest">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequest">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequest.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequest.Entry">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequest.Nombre">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequest.Nombre">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequest.Saldo">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequest.Saldo">
 <comentarios/>
 </member>
 <member name="T:WindowsApplication1.C4C_SaldoClientesB.UUID">
@@ -310,82 +310,82 @@ WindowsApplication1
 <member name="P:WindowsApplication1.C4C_SaldoClientesB.BusinessDocumentBasicMessageHeader.ReferenceUUID">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequestMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequestMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequestMessage_sync.BasicMessageHeader">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequestMessage_sync.BasicMessageHeader">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBCreateRequestMessage_sync.Saldo_ClienteB">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBCreateRequestMessage_sync.Saldo_ClienteB">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequestMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequestMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequestMessage_sync.BasicMessageHeader">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequestMessage_sync.BasicMessageHeader">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequestMessage_sync.Saldo_ClienteB">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequestMessage_sync.Saldo_ClienteB">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequest">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequest">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequest.SAP_UUID">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequest.SAP_UUID">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequest.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequest.Entry">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequest.Nombre">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequest.Nombre">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateRequest.Saldo">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateRequest.Saldo">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateConfirmationMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateConfirmationMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBUpdateConfirmationMessage_sync.Log">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBUpdateConfirmationMessage_sync.Log">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDQueryMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDQueryMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDQueryMessage_sync.Saldo_ClienteB">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDQueryMessage_sync.Saldo_ClienteB">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDQuery">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDQuery">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDQuery.SAP_UUID">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDQuery.SAP_UUID">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDQuery.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDQuery.Entry">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponseMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponseMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponseMessage_sync.Saldo_ClienteB">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponseMessage_sync.Saldo_ClienteB">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponseMessage_sync.Log">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponseMessage_sync.Log">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponse">
+<member name="T:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponse">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponse.SAP_UUID">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponse.SAP_UUID">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponse.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponse.Entry">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponse.Nombre">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponse.Nombre">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldo_ClienteBReadByIDResponse.Saldo">
+<member name="P:WindowsApplication1.C4C_SaldoClientesB.Saldo_ClienteBSaldoClienteBReadByIDResponse.Saldo">
 <comentarios/>
 </member>
 <member name="T:WindowsApplication1.C4C_SaldoClientesV.StandardFaultMessage">
@@ -592,22 +592,22 @@ WindowsApplication1
 <member name="P:WindowsApplication1.C4C_SaldoClientesV.LogItemNotePlaceholderSubstitutionList.FourthPlaceholderSubstitutionText">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateConfirmation">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateConfirmation">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateConfirmation.SAP_UUID">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateConfirmation.SAP_UUID">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateConfirmation.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateConfirmation.Entry">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateConfirmationMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateConfirmationMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateConfirmationMessage_sync.Saldo_ClienteV">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateConfirmationMessage_sync.Saldo_ClienteV">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateConfirmationMessage_sync.Log">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateConfirmationMessage_sync.Log">
 <comentarios/>
 </member>
 <member name="T:WindowsApplication1.C4C_SaldoClientesV.Quantity">
@@ -628,16 +628,16 @@ WindowsApplication1
 <member name="P:WindowsApplication1.C4C_SaldoClientesV.Text.Value">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateRequest">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateRequest">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateRequest.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateRequest.Entry">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateRequest.Nombre">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateRequest.Nombre">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateRequest.Saldo">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateRequest.Saldo">
 <comentarios/>
 </member>
 <member name="T:WindowsApplication1.C4C_SaldoClientesV.UUID">
@@ -685,82 +685,82 @@ WindowsApplication1
 <member name="P:WindowsApplication1.C4C_SaldoClientesV.BusinessDocumentBasicMessageHeader.ReferenceUUID">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateRequestMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateRequestMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateRequestMessage_sync.BasicMessageHeader">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateRequestMessage_sync.BasicMessageHeader">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVCreateRequestMessage_sync.Saldo_ClienteV">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVCreateRequestMessage_sync.Saldo_ClienteV">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateRequestMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateRequestMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateRequestMessage_sync.BasicMessageHeader">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateRequestMessage_sync.BasicMessageHeader">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateRequestMessage_sync.Saldo_ClienteV">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateRequestMessage_sync.Saldo_ClienteV">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateRequest">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateRequest">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateRequest.SAP_UUID">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateRequest.SAP_UUID">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateRequest.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateRequest.Entry">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateRequest.Nombre">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateRequest.Nombre">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateRequest.Saldo">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateRequest.Saldo">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateConfirmationMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateConfirmationMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVUpdateConfirmationMessage_sync.Log">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVUpdateConfirmationMessage_sync.Log">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDQueryMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDQueryMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDQueryMessage_sync.Saldo_ClienteV">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDQueryMessage_sync.Saldo_ClienteV">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDQuery">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDQuery">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDQuery.SAP_UUID">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDQuery.SAP_UUID">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDQuery.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDQuery.Entry">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDResponseMessage_sync">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDResponseMessage_sync">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDResponseMessage_sync.Saldo_ClienteV">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDResponseMessage_sync.Saldo_ClienteV">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDResponseMessage_sync.Log">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDResponseMessage_sync.Log">
 <comentarios/>
 </member>
-<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDResponse">
+<member name="T:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDResponse">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDResponse.SAP_UUID">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDResponse.SAP_UUID">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDResponse.Entry">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDResponse.Entry">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDResponse.Nombre">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDResponse.Nombre">
 <comentarios/>
 </member>
-<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldo_ClienteVReadByIDResponse.Saldo">
+<member name="P:WindowsApplication1.C4C_SaldoClientesV.Saldo_ClienteVSaldoClienteVReadByIDResponse.Saldo">
 <comentarios/>
 </member>
 <member name="T:WindowsApplication1.IF_SaldoClientesV.SaldoClientesVType">

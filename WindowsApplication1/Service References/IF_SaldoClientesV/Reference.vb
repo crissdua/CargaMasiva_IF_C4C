@@ -15,11 +15,11 @@ Option Explicit On
 Namespace IF_SaldoClientesV
     
     <System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
-     System.ServiceModel.ServiceContractAttribute(Name:="ipostep_vP.0010000101.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_XPT_"& _ 
-        "INB_WS_CALL_SYNC_XPT.ipo_proc", [Namespace]:="urn:ipostep_vP.0010000101.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_"& _ 
-        "XPT_INB_WS_CALL_SYNC_XPT.ipo_proc", ConfigurationName:="IF_SaldoClientesV.ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CA"& _ 
+     System.ServiceModel.ServiceContractAttribute(Name:="ipostep_vP.001sap0003.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_XPT_"& _ 
+        "INB_WS_CALL_SYNC_XPT.ipo_proc", [Namespace]:="urn:ipostep_vP.001sap0003.in_WCSX_com.sap.b1i.vplatform.runtime_INB_WS_CALL_SYNC_"& _ 
+        "XPT_INB_WS_CALL_SYNC_XPT.ipo_proc", ConfigurationName:="IF_SaldoClientesV.ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CA"& _ 
         "LL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc")>  _
-    Public Interface ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc
+    Public Interface ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc
         
         'CODEGEN: Se está generando un contrato de mensaje, ya que la operación Z.SaldoClientesV no es RPC ni está encapsulada en un documento.
         <System.ServiceModel.OperationContractAttribute(Action:="", ReplyAction:="*"),  _
@@ -184,15 +184,15 @@ Namespace IF_SaldoClientesV
     End Class
     
     <System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")>  _
-    Public Interface ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_procChannel
-        Inherits IF_SaldoClientesV.ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc, System.ServiceModel.IClientChannel
+    Public Interface ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_procChannel
+        Inherits IF_SaldoClientesV.ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc, System.ServiceModel.IClientChannel
     End Interface
     
     <System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")>  _
-    Partial Public Class ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_procClient
-        Inherits System.ServiceModel.ClientBase(Of IF_SaldoClientesV.ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc)
-        Implements IF_SaldoClientesV.ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc
+    Partial Public Class ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_procClient
+        Inherits System.ServiceModel.ClientBase(Of IF_SaldoClientesV.ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc)
+        Implements IF_SaldoClientesV.ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc
         
         Public Sub New()
             MyBase.New
@@ -215,26 +215,26 @@ Namespace IF_SaldoClientesV
         End Sub
         
         <System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Function IF_SaldoClientesV_ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc_ZSaldoClientesV(ByVal request As IF_SaldoClientesV.ZSaldoClientesVRequest) As IF_SaldoClientesV.ZSaldoClientesVResponse Implements IF_SaldoClientesV.ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc.ZSaldoClientesV
+        Function IF_SaldoClientesV_ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc_ZSaldoClientesV(ByVal request As IF_SaldoClientesV.ZSaldoClientesVRequest) As IF_SaldoClientesV.ZSaldoClientesVResponse Implements IF_SaldoClientesV.ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc.ZSaldoClientesV
             Return MyBase.Channel.ZSaldoClientesV(request)
         End Function
         
         Public Function ZSaldoClientesV(ByVal SaldoClientesV As IF_SaldoClientesV.SaldoClientesVType) As IF_SaldoClientesV.SaldoClientesVResponseType
             Dim inValue As IF_SaldoClientesV.ZSaldoClientesVRequest = New IF_SaldoClientesV.ZSaldoClientesVRequest()
             inValue.SaldoClientesV = SaldoClientesV
-            Dim retVal As IF_SaldoClientesV.ZSaldoClientesVResponse = CType(Me,IF_SaldoClientesV.ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc).ZSaldoClientesV(inValue)
+            Dim retVal As IF_SaldoClientesV.ZSaldoClientesVResponse = CType(Me,IF_SaldoClientesV.ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc).ZSaldoClientesV(inValue)
             Return retVal.SaldoClientesVResponse
         End Function
         
         <System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Function IF_SaldoClientesV_ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc_ZSaldoClientesVAsync(ByVal request As IF_SaldoClientesV.ZSaldoClientesVRequest) As System.Threading.Tasks.Task(Of IF_SaldoClientesV.ZSaldoClientesVResponse) Implements IF_SaldoClientesV.ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc.ZSaldoClientesVAsync
+        Function IF_SaldoClientesV_ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc_ZSaldoClientesVAsync(ByVal request As IF_SaldoClientesV.ZSaldoClientesVRequest) As System.Threading.Tasks.Task(Of IF_SaldoClientesV.ZSaldoClientesVResponse) Implements IF_SaldoClientesV.ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc.ZSaldoClientesVAsync
             Return MyBase.Channel.ZSaldoClientesVAsync(request)
         End Function
         
         Public Function ZSaldoClientesVAsync(ByVal SaldoClientesV As IF_SaldoClientesV.SaldoClientesVType) As System.Threading.Tasks.Task(Of IF_SaldoClientesV.ZSaldoClientesVResponse)
             Dim inValue As IF_SaldoClientesV.ZSaldoClientesVRequest = New IF_SaldoClientesV.ZSaldoClientesVRequest()
             inValue.SaldoClientesV = SaldoClientesV
-            Return CType(Me,IF_SaldoClientesV.ipostep_vP0010000101in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc).ZSaldoClientesVAsync(inValue)
+            Return CType(Me,IF_SaldoClientesV.ipostep_vP001sap0003in_WCSX_comsapb1ivplatformruntime_INB_WS_CALL_SYNC_XPT_INB_WS_CALL_SYNC_XPTipo_proc).ZSaldoClientesVAsync(inValue)
         End Function
     End Class
 End Namespace
